@@ -1,0 +1,50 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data directories
+backend/data/uploads/*
+backend/data/texts/*
+backend/data/vectorstore/*
+backend/data/reports/*
+
+# Keep directory structure
+!backend/data/uploads/.gitkeep
+!backend/data/texts/.gitkeep
+!backend/data/vectorstore/.gitkeep
+!backend/data/reports/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
