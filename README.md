@@ -24,6 +24,7 @@ A **local Retrieval-Augmented Generation (RAG)** system that allows you to chat 
                             ├─> Embeddings (Gemini)
                             └─> Vector Store (Chroma)
 ```
+![Local RAG Architecture](local%20rag.png)
 
 ## 📋 Prerequisites
 
